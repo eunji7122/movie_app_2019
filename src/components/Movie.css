@@ -10,7 +10,8 @@
 }
 
 .movies .movie a {
-  display: grid;
+  display: contents;
+  text-decoration: none;
   grid-template-columns: minmax(150px, 1fr) 2fr;
   grid-gap: 20px;
   text-decoration: none;
